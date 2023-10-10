@@ -1,0 +1,39 @@
+.container {
+  position: relative;
+  height: calc(100vh - 80px) ;
+  overflow: hidden;
+  overflow-y: auto;
+  background: linear-gradient(
+      50deg,
+      rgba(255, 255, 255, 0.8) 12%,
+      rgba(255, 255, 255, 0.1) 77%
+  );
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+
+
+}
+
+.innerContainer {
+  min-height: calc(100% - 190px) ;
+  padding: 40px;
+  overflow: hidden;
+
+}
+
+
+@media only screen and (max-width: 1300px) {
+  .container {
+    height: calc(100vh - 80px) ;
+  }
+  .innerContainer {
+    min-height: calc(100% - 280px) ;
+    padding: 10px;
+
+  }
+
+}
+
+
+
+

@@ -1,0 +1,89 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+.idea
+.vscode
+
+# ignore vs code project config files
+.vs
+
+# ignore logs
+logs
+*.log
+**/*.log
+
+# ignore 3rd party lib
+**/node_modules
+**/.next
+**/.nyc_output
+
+# ignore key
+*.pem
+
+# Ignore built files
+**/build
+**/dist
+**/.nyc_output
+
+# ignore test converage
+coverage
+
+# Environment varibles
+*.env
+*.env.*
+!*.env.example
+*.log
+
+.yarn/cache
+.yarn/install-state.gz
+
+**/tsconfig.tsbuildinfo
+**/tsconfig.build.tsbuildinfo
+
+.yarn/build-state.yml
+
+### Terraform ###
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude all .tfvars files, which are likely to contain sentitive data, such as
+# password, private keys, and other secrets. These should not be part of version
+# control as they are data points which are potentially sensitive and subject
+# to change depending on the environment.
+#
+*.tfvars
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files you do wish to add to version control using negated pattern
+# !example_override.tf
+
+# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
+# example: *tfplan*
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+**/.terraform.lock.hcl
+
+**/.DS_Store
+.DS_Store
+
+
+# Turborepo
+.turbo
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+out

@@ -1,0 +1,31 @@
+{
+  "name": "quentin-piot",
+  "private": true,
+  "devDependencies": {
+    "@types/prettier": "^2",
+    "turbo": "^1.1.9"
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "test:api": "turbo run test --scope=api --include-dependencies --no-deps",
+    "prettier": "turbo run prettier",
+    "build": "turbo run build",
+    "dev:api": "turbo run dev --parallel --continue --scope=api --include-dependencies --no-deps",
+    "dev:web": "turbo run dev --parallel --continue --scope=web  --no-deps",
+    "dev": "turbo run dev --parallel --continue --scope=web --include-dependencies --no-deps",
+    "clean": "turbo run clean && rm -rf node_modules"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "packageManager": "yarn@3.2.0",
+  "dependencies": {
+    "react-markdown": "^8.0.3"
+  }
+}

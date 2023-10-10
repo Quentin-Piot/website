@@ -1,0 +1,10 @@
+# Ignore artifacts:
+
+dist/
+.next/
+build/
+coverage/
+keys/
+logs/
+node_modules/
+*.md

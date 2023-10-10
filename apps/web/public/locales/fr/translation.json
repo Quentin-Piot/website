@@ -1,0 +1,98 @@
+{
+  "common": {
+    "aboutMe": "A propos",
+    "link": "Lien",
+    "externalResources": "Ressources externes"
+  },
+  "components": {
+    "navbar": {
+      "items": {
+        "home": "Accueil",
+        "experience": "Experience",
+        "projects": "Projets",
+        "cv": "CV",
+        "education": "Education",
+        "about": "A propos"
+      }
+    }
+  },
+  "pages": {
+    "homepage": {
+      "cards": {
+        "aboutMe": {
+          "title": "Bio",
+          "text": "Je suis un ingénieur logiciel doté de 2 années d'expériences (en incluant mes stages dans de grandes entreprises françaises) passionné de nouvelles technologies et toujours à la recherche de défis me permettant de perfectionner mes compétences&nbsp;  \nFort de mes expériences passées en tant qu'ingénieur Full-Stack ou étudiant ingénieur, j'ai pu développer des clients frontend avec les trois principaux frameworks SPA (**React, Vue et Angular**) ainsi que leurs principales librairies associées (**Next.js, Redux, Nuxt, etc.**) mais également des backends basés sur Node.Js (**Nest.js, Hapi, Strapi**) ou **Java/Kotlin (Spring)** .&nbsp;  \nAu niveau de l'environnement mobile, j'ai pu également développer des applications basées sur **React Native** (Android/Ios) ou **Kotlin** (Android).&nbsp;  \nAyant débuté dans des équipes réduites aux compétences variées, j'ai pu également développer de compétences de **CI/CD** à l'aide d'outils tels que **Gitlab CI, Docker** ainsi que **AWS ou GCP** (préparation d'environnement, tests, déploiement, etc.)&nbsp;  \nDe part mon tempérament curieux, j'ai commencé l'apprentissage sur ces derniers mois de nouvelles technologies permettant d'ouvrir également mon champ de connaissances: **Rust, Flutter, Python**."        }
+      }
+    },
+    "education": {
+      "followedCourses": "Cours suivis",
+      "kaist": {
+        "title": "Korea Advanced Institute of Science and Technology",
+        "subtitle": "Semestre d'échange",
+        "courses": {
+          "course1": "CS489 : Déontologie informatique et enjeux sociaux",
+          "course2": "CS442 : Applications et réseaux informatiques mobiles",
+          "course3": "CS484 : Introduction à la vision par ordinateur",
+          "course4": "HS003 : Introduction au coréen"
+        }
+      },
+      "utt": {
+        "title": "Université de Technologie de Troyes",
+        "subtitle": "Diplôme d'ingénieur",
+        "courses": {
+          "course1": "LOO2 : Principe et pratique de la programmation objets",
+          "course2": "NF02 : Modélisation et évaluation des systèmes complexes",
+          "course3": "GL02 : Fondements de l'ingénierie logicielle",
+          "course4": "IF14: Analyse de Système d'Information",
+          "course5": "IF26: Conception sécurisée d'applications mobiles"
+        }
+      },
+      "bac": {
+        "title": "Baccalauréat scientifique",
+        "subtitle": "Baccalauréat"
+      }
+    },
+    "experience": {
+      "description": "Description",
+      "mainStacks": "Principales technologies",
+      "sparkmate": {
+        "title": "CDI",
+        "subtitle": "Ingénieur produit",
+        "description": "De l'idée et de la conception au prototypage et à la pré-production, nous accompagnons le client et développons des solutions technologiques. \n\n•Analyse du projet : compréhension de la vision du projet, rédaction de diagrammes de classes, de cas d'utilisation, de diagrammes d'état, etc.\n•Gestion de projet : tests d'acceptation, planification, suivi, etc.\n•  Modélisation du design des applications (UI et architecture). \n•Développement d'applications (frontend et backend).\n•CI/CD en utilisant GitLab, Docker et AWS/GCP."
+      },
+      "ds": {
+        "title": "Stage de fin d'études",
+        "subtitle": "Ingénieur logiciel",
+        "description": "Développement de prototypes de widgets (nouvelles fonctionnalités, évolutions, corrections)\n• Amélioration des processus : gestion du code source, tests automatisés, build, déploiement continu.\n• Utilisation des dernières technologies et frameworks, front-end (React, Vue, d3), back-end (AWS, NestJs)\n• Workflow de développement, de test et de release (intégration / livraison continue / déploiement) : Git, GitLab, webpack, TDD, Linting..."
+      },
+      "af": {
+        "title": "Stage de fin d'études",
+        "subtitle": "Ingénieur logiciel",
+        "description": "Amélioration des applications Angular/Electron du service\n• Refonte des IHM de plusieurs applications pour répondre aux besoins du métier\n• Amélioration du Backend de plusieurs applications par analyse de code/complexité et refonte WebSocket\n• Implémentation d’un Service Worker sur une application pour en faire une Progressive Web App\n"
+      },
+      "ar": {
+        "title": "Stage ouvrier",
+        "subtitle": "Mécanicien",
+        "description": ""
+      }
+    },
+    "projects": {
+      "tab": {
+        "categories": {
+          "duration": "Durée",
+          "numberOfPeople": "Nombre de personnes",
+          "primaryRole": "Rôle principal",
+          "skillsUsed": "Compétences utilisées",
+          "lessonsLearned": "Leçons apprises"
+        }
+      }
+    }
+  },
+  "footer" : {
+    "inDevelopment" : {
+      "startingDate" : "Débuté en Mai 2022",
+      "still" : "En développement."
+    },
+    "builtFromScratch" : " Bâti de zéro à l'aide de React, Typescript, Next.js, PWA, Three.js, ChakraUI, Turborepo, etc."
+  }
+}

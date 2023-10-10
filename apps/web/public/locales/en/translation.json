@@ -1,0 +1,150 @@
+{
+  "common": {
+    "aboutMe": "About me",
+    "link": "Link",
+    "externalResources": "External resources"
+  },
+  "components": {
+    "navbar": {
+      "items": {
+        "home": "Home",
+        "experience": "Experience",
+        "projects": "Projects",
+        "cv": "CV",
+        "education": "Education",
+        "about": "About"
+      }
+    }
+  },
+  "pages": {
+    "homepage": {
+      "cards": {
+        "aboutMe": {
+          "title": "Bio",
+          "text": "I am a junior software engineer with 2 years of experience (including internships in large French companies) passionate about new technologies and always looking for challenges to improve my skills&nbsp;  \nThanks to my past experiences as a Full-Stack engineer or as a student engineer (UTT and KAIST), I was able to develop frontend clients with the three main SPA frameworks (**React, Vue and Angular**) as well as their main associated libraries (**Next.js, Redux, Nuxt, etc.**) but also backends based on Node.js (**Nest.js, Hapi, Strapi**) or **Java/Kotlin (Spring)** .&nbsp;  \nIn the mobile environment, I was also able to develop applications based on **React Native** (Android/Ios) or **Kotlin** (Android).&nbsp;  \nHaving started in small teams with various skills, I was also able to develop **CI/CD** skills using tools such as **Gitlab CI, Docker** as well as **AWS or GCP** (environment preparation, testing, deployment, etc.)&nbsp;  \nBecause of my curious nature, I started to learn new technologies during the last months to open my knowledge: **Rust, Flutter, Python**."   }
+      }
+    },
+    "education": {
+      "followedCourses": "Followed courses",
+      "kaist": {
+        "title": "Korea Advanced Institute of Science and Technology",
+        "subtitle": "Exchange Semester",
+        "courses": {
+          "course1": "CS489 : Computer ethics and social issues",
+          "course2": "CS442 : Mobile computing, applications and networking",
+          "course3": "CS484 : Introduction to Computer Vision",
+          "course4": "HS003 : Introduction to Korean"
+        }
+      },
+      "utt": {
+        "title": "University of Technology of Troyes",
+        "subtitle": "Master",
+        "courses": {
+          "course1": "LOO2 : Object-Oriented System Analysis and Design",
+          "course2": "NF02 : Modeling and evaluation of complex IT systems",
+          "course3": "GL02 : Software Engineering",
+          "course4": "IF14: Information System Analysis",
+          "course5": "IF26: Secure design of mobile applications"
+        }
+      },
+      "bac": {
+        "title": "Scientific Baccalaureate",
+        "subtitle": "Baccalaureate"
+      }
+    },
+    "experience": {
+      "description": "Description",
+      "mainStacks": "Main stacks",
+      "sparkmate": {
+        "title": "Full-time job",
+        "subtitle": "Software Engineer",
+        "description": "From ideas and conception to prototyping and pre production, we support the customer and develop technological solutions \n\n•Project analysis: understanding of project vision, writting of class diagrams, use cases, state diagrams, etc.\n•Project management: acceptance testing, planning, monitoring, etc.\n•Application design modeling (UI wise and architecture wise) \n•Development of applications (frontend and backend)\n•CI/CD using GitLab, docker and AWS/GCP\n"
+      },
+      "ds": {
+        "title": "6 months internship",
+        "subtitle": "FullStack Engineer",
+        "description": "Development of widget prototypes (new features, evolutions, fixes)\n• Process improvements: source code management, automated tests, build, continuous rollout.\n• Use of the latest technologies and frameworks, front-end (React, Vue, d3), back-end (AWS, NestJs)\n• Development, testing and release workflow (integration / continuous delivery / deployment) : Git, GitLab, webpack, TDD, Linting..."
+      },
+      "af": {
+        "title": "6 months internship",
+        "subtitle": "FullStack Engineer",
+        "description": "Improvement of existing Angular/Electron based applications\n• Redesigning the GUIs of some applications to match the needs of the pilots\n• Improving backend performance by code and complexity analysis and rework on Websocket\n• Implementation of a Service Worker on an app to make it a Progressive Web App"
+      },
+      "ar": {
+        "title": "1 month Internship",
+        "subtitle": "Mechanic",
+        "description": "..."
+      }
+    },
+    "projects": {
+      "tab": {
+        "categories": {
+          "duration": "Duration",
+          "numberOfPeople": "Number of people",
+          "primaryRole": "Primary role",
+          "skillsUsed": "Skills used",
+          "lessonsLearned": "Lessons learned"
+        }
+      },
+      "rhythm-game": {
+        "title": "\uD83D\uDEE0️ : A rust rhythm game",
+        "description": "Game made in Rust using the Bevy game engine to improve myself in the language and discover advanced concepts. In its final version, the project will include a backend for multiplayer, CI and unit tests.\nThe game also includes a web version exported in Web Assembly",
+        "tab": {
+          "categories": {
+            "duration": "Started in november 2022",
+            "numberOfPeople": "1",
+            "primaryRole": "Développement du jeu",
+            "skillsUsed": "Rust, Bevy, Docker, Github Actions, GCP",
+            "lessonsLearned": "TBD \n\n\n"
+          }
+        }
+      },
+      "safeTrip": {
+        "title": "Safe Trip : An android application to prevent harassing",
+        "description": "                    SafeTrip is a mobile application (Android) written in Kotlin which aims to\n                    prevent aggressions using machine learning (Weka algorithms). The smartphone\n                    detects 4 cases: a fall, a run, a suspicious location or the entry in a vehicle\n                    using ML. In case of problem, the application takes control of the phone by\n                    launching a loud alarm and then after ten seconds, alerts the relatives by\n                    sending an SMS containing the position of the victim and notifies the users of\n                    the application within a radius of a few kilometers using Firebase API",
+        "tab": {
+          "categories": {
+            "duration": "Started in Korea in 2019",
+            "numberOfPeople": "2",
+            "primaryRole": "Elaboration of the specifications and development of the application",
+            "skillsUsed": "Kotlin, Machine Learning with Weka, Firebase API",
+            "lessonsLearned": "Market research, search for innovation, advanced  mobile development, machine learning basics\n\n\n"
+          }
+        }
+      },
+      "footballMatch": {
+        "title": "Football Match",
+        "description": "Football Match is a web application project designed to connect players and coaches of amateur clubs who would like to organize matches between them more easily.\n\nDeveloped in React, the application allows you to find on a map all the matches available in your area and offers the possibility to participate or to create new ones\n\n\n",
+        "tab": {
+          "categories": {
+            "duration": "Started end 2020",
+            "numberOfPeople": "3",
+            "primaryRole": "Development of the application and research of innovative features\n",
+            "skillsUsed": "React, Node.js, Nest.js, MongoDB, Leaflet\n",
+            "lessonsLearned": "Start a project from 0, including specifications. Adapt to a group of people with different skills. Improve React and Nest.js competencies, hooks, etc."
+          }
+        }
+      },
+      "inaudibleSounds": {
+        "title": "Communication by inaudible sounds",
+        "description": "In order to train my electronic skills, I built a system using Arduino and Android to send information with inaudible sounds. A speaker is used to send out inaudible ultrasound which is interpreted by the telephone using Fourier transformations\n",
+        "tab": {
+          "categories": {
+            "duration": "2020",
+            "numberOfPeople": "1",
+            "primaryRole": "-",
+            "skillsUsed": "Kotlin, Arduino, Mathematics\n",
+            "lessonsLearned": "Carry out a project based on arduino, use mathematics in computing, think of a way to interpret an inaudible signal\n"
+          }
+        }
+      }
+    }
+  },
+  "footer" : {
+    "inDevelopment" : {
+      "startingDate" : "Started in May 2022",
+      "still" : "Still in development."
+    },
+    "builtFromScratch" : " Built from scratch with React, Typescript, Next.js, PWA, Three.js, ChakraUI, Turborepo, etc."
+  }
+}

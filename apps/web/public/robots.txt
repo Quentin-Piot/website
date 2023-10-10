@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://quentinpiot.com
+
+# Sitemaps
+Sitemap: https://quentinpiot.com/sitemap.xml
